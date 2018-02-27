@@ -1,0 +1,36 @@
+{
+    "build": {
+        "@saveall": true
+    },
+    "language": {
+        "tern_defs": {
+            "json()": {
+                "browser": {
+                    "enabled": true
+                },
+                "ecma5": {
+                    "enabled": true
+                },
+                "jQuery": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    "run": {
+        "configs": {
+            "@inited": "true",
+            "json()": {
+                "Chamber": {
+                    "command": "rails s -b 0.0.0.0",
+                    "name": "Chamber",
+                    "runner": "Shell command",
+                    "toolbar": true
+                }
+            }
+        }
+    },
+    "welcome": {
+        "@first": true
+    }
+}
